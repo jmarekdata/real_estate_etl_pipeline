@@ -1,0 +1,22 @@
+﻿# Python & Scrapy
+__pycache__/
+*.py[cod]
+.venv/
+.scrapy/
+
+# dbt
+dbt_transform/target/
+dbt_transform/dbt_packages/
+dbt_transform/logs/
+
+# Airflow & Docker volumes
+airflow/logs/*
+!airflow/logs/.gitkeep
+postgres_data/
+
+# Environment variables & Secrets
+.env
+
+# IDEs
+.vscode/
+.idea/
