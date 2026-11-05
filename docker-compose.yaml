@@ -29,5 +29,22 @@ services:
       sh -c "pip install --no-cache-dir scrapy psycopg2-binary &&
              python -m scrapy crawl otodom"
 
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.7.latest
+    container_name: real_estate_dbt
+    working_dir: /usr/app/dbt
+    volumes:
+      - ./dbt:/usr/app/dbt
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: real_estate
+      DB_USER: admin
+      DB_PASSWORD: adminpassword
+    depends_on:
+      - postgres
+    # Komenda sleep infinity sprawia, że kontener działa cały czas w tle, czekając na nasze rozkazy
+    command: ["sleep", "infinity"] 
+
 volumes:
   postgres_data:
