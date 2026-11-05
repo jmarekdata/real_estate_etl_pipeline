@@ -1,0 +1,1026 @@
+[0m23:09:14.308766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71eda955cc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71eda980c8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71eda9572fd0>]}
+
+
+============================== 23:09:14.316588 | a76db71f-551f-481c-86b5-43e7dbc7e028 ==============================
+[0m23:09:14.316588 [info ] [MainThread]: Running with dbt=1.7.20
+[0m23:09:14.318261 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/usr/app/dbt/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:09:14.319660 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:09:14.321004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'a76db71f-551f-481c-86b5-43e7dbc7e028', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71eda9579010>]}
+[0m23:13:45.117032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8c1658d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8c1baa50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8d39ad50>]}
+
+
+============================== 23:13:45.123877 | 6a1a0594-6605-4905-b625-c6eddc2fe22c ==============================
+[0m23:13:45.123877 [info ] [MainThread]: Running with dbt=1.7.20
+[0m23:13:45.126258 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/app/dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --profiles-dir .', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:13:45.128271 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:13:45.129884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8cdfbe50>]}
+[0m23:13:45.297610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a2ff990>]}
+[0m23:13:45.347934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8c1ab410>]}
+[0m23:13:45.349962 [info ] [MainThread]: Registered adapter: postgres=1.7.20
+[0m23:13:45.359445 [debug] [MainThread]: checksum: e60e9a7db60717b27391e9fcca7ffc2f1c59992fad004fb73a09489fe7f93d3f, vars: {}, profile: , target: , version: 1.7.20
+[0m23:13:45.362379 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:13:45.363476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8c1bbc10>]}
+[0m23:13:46.322915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a3bc510>]}
+[0m23:13:46.349855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a18e2d0>]}
+[0m23:13:46.351001 [info ] [MainThread]: Found 3 models, 1 source, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m23:13:46.352436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a19c750>]}
+[0m23:13:46.355526 [info ] [MainThread]: 
+[0m23:13:46.357324 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:13:46.359420 [debug] [ThreadPool]: Acquiring new postgres connection 'list_real_estate'
+[0m23:13:46.369586 [debug] [ThreadPool]: Using postgres connection "list_real_estate"
+[0m23:13:46.370818 [debug] [ThreadPool]: On list_real_estate: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "list_real_estate"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:13:46.372065 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:13:46.398406 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m23:13:46.400373 [debug] [ThreadPool]: On list_real_estate: Close
+[0m23:13:46.402186 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_real_estate, now create_real_estate_analytical)
+[0m23:13:46.403466 [debug] [ThreadPool]: Creating schema "database: "real_estate"
+schema: "analytical"
+"
+[0m23:13:46.408859 [debug] [ThreadPool]: Using postgres connection "create_real_estate_analytical"
+[0m23:13:46.410097 [debug] [ThreadPool]: On create_real_estate_analytical: BEGIN
+[0m23:13:46.411109 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:13:46.420278 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.421450 [debug] [ThreadPool]: Using postgres connection "create_real_estate_analytical"
+[0m23:13:46.422593 [debug] [ThreadPool]: On create_real_estate_analytical: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "create_real_estate_analytical"} */
+create schema if not exists "analytical"
+[0m23:13:46.425389 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m23:13:46.427019 [debug] [ThreadPool]: On create_real_estate_analytical: COMMIT
+[0m23:13:46.427916 [debug] [ThreadPool]: Using postgres connection "create_real_estate_analytical"
+[0m23:13:46.428738 [debug] [ThreadPool]: On create_real_estate_analytical: COMMIT
+[0m23:13:46.430638 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m23:13:46.431537 [debug] [ThreadPool]: On create_real_estate_analytical: Close
+[0m23:13:46.434275 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_real_estate_analytical, now list_real_estate_analytical)
+[0m23:13:46.440187 [debug] [ThreadPool]: Using postgres connection "list_real_estate_analytical"
+[0m23:13:46.441233 [debug] [ThreadPool]: On list_real_estate_analytical: BEGIN
+[0m23:13:46.442222 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:13:46.451334 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.452729 [debug] [ThreadPool]: Using postgres connection "list_real_estate_analytical"
+[0m23:13:46.453928 [debug] [ThreadPool]: On list_real_estate_analytical: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "list_real_estate_analytical"} */
+select
+      'real_estate' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytical'
+    union all
+    select
+      'real_estate' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytical'
+    union all
+    select
+      'real_estate' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytical'
+  
+[0m23:13:46.462413 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m23:13:46.464392 [debug] [ThreadPool]: On list_real_estate_analytical: ROLLBACK
+[0m23:13:46.465572 [debug] [ThreadPool]: On list_real_estate_analytical: Close
+[0m23:13:46.470231 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.471336 [debug] [MainThread]: On master: BEGIN
+[0m23:13:46.472467 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:13:46.481591 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.482810 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.483822 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m23:13:46.491107 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m23:13:46.492972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a2fd750>]}
+[0m23:13:46.494022 [debug] [MainThread]: On master: ROLLBACK
+[0m23:13:46.495077 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.495898 [debug] [MainThread]: On master: BEGIN
+[0m23:13:46.497078 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.498030 [debug] [MainThread]: On master: COMMIT
+[0m23:13:46.498941 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.499905 [debug] [MainThread]: On master: COMMIT
+[0m23:13:46.500992 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m23:13:46.502012 [debug] [MainThread]: On master: Close
+[0m23:13:46.503357 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:13:46.504475 [info ] [MainThread]: 
+[0m23:13:46.513294 [debug] [Thread-1 (]: Began running node model.real_estate_dbt.stg_listings
+[0m23:13:46.514681 [info ] [Thread-1 (]: 1 of 3 START sql view model analytical.stg_listings ............................ [RUN]
+[0m23:13:46.516231 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_real_estate_analytical, now model.real_estate_dbt.stg_listings)
+[0m23:13:46.517558 [debug] [Thread-1 (]: Began compiling node model.real_estate_dbt.stg_listings
+[0m23:13:46.524966 [debug] [Thread-1 (]: Writing injected SQL for node "model.real_estate_dbt.stg_listings"
+[0m23:13:46.540086 [debug] [Thread-1 (]: Timing info for model.real_estate_dbt.stg_listings (compile): 23:13:46.518545 => 23:13:46.539756
+[0m23:13:46.541200 [debug] [Thread-1 (]: Began executing node model.real_estate_dbt.stg_listings
+[0m23:13:46.571670 [debug] [Thread-1 (]: Writing runtime sql for node "model.real_estate_dbt.stg_listings"
+[0m23:13:46.588357 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:13:46.589421 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: BEGIN
+[0m23:13:46.590373 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:13:46.599876 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.601047 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:13:46.602099 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+
+  create view "real_estate"."analytical"."stg_listings__dbt_tmp"
+    
+    
+  as (
+    WITH raw_source AS (
+    SELECT * FROM "real_estate"."raw"."listings"
+),
+
+cleaned AS (
+    SELECT
+        id AS raw_id,
+        source_portal,
+        offer_url,
+        TRIM(title) AS title,
+        NULLIF(REGEXP_REPLACE(price_raw, '[^0-9]', '', 'g'), '')::NUMERIC(12, 2) AS price_pln,
+        NULLIF(REPLACE(REGEXP_REPLACE(area_raw, '[^0-9.,]', '', 'g'), ',', '.'), '')::NUMERIC(8, 2) AS area_sqm,
+        NULLIF(REGEXP_REPLACE(rooms_raw, '[^0-9]', '', 'g'), '')::INT AS rooms_count,
+        location_raw,
+        CASE
+            WHEN location_raw ILIKE '%Łódź%' OR offer_url ILIKE '%lodz%' THEN 'Łódź'
+            WHEN location_raw ILIKE '%Warszawa%' OR offer_url ILIKE '%warszawa%' THEN 'Warszawa'
+            WHEN location_raw ILIKE '%Wrocław%' OR offer_url ILIKE '%wroclaw%' THEN 'Wrocław'
+            WHEN location_raw ILIKE '%Katowice%' OR offer_url ILIKE '%katowice%' THEN 'Katowice'
+            WHEN location_raw ILIKE '%Kraków%' OR offer_url ILIKE '%krakow%' THEN 'Kraków'
+            WHEN location_raw ILIKE '%Poznań%' OR offer_url ILIKE '%poznan%' THEN 'Poznań'
+            WHEN location_raw ILIKE '%Gdańsk%' OR offer_url ILIKE '%gdansk%' THEN 'Gdańsk'
+            ELSE 'Łódź'
+        END AS city,
+        CASE
+            WHEN location_raw ILIKE '%Polesie%' THEN 'Polesie'
+            WHEN location_raw ILIKE '%Bałuty%' THEN 'Bałuty'
+            WHEN location_raw ILIKE '%Widzew%' THEN 'Widzew'
+            WHEN location_raw ILIKE '%Górna%' THEN 'Górna'
+            WHEN location_raw ILIKE '%Śródmieście%' THEN 'Śródmieście'
+            ELSE 'Pozostałe'
+        END AS district,
+        raw_payload,
+        scraped_at
+    FROM raw_source
+)
+
+SELECT
+    *,
+    ROUND(price_pln / NULLIF(area_sqm, 0), 2) AS price_per_sqm,
+    MD5(
+        LOWER(city) || '|' ||
+        LOWER(district) || '|' ||
+        ROUND(area_sqm, 1)::TEXT || '|' ||
+        COALESCE(rooms_count, 0)::TEXT
+    ) AS property_fingerprint
+FROM cleaned
+WHERE price_pln IS NOT NULL
+  AND area_sqm IS NOT NULL
+  AND area_sqm > 10
+  );
+[0m23:13:46.615032 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m23:13:46.621114 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:13:46.622319 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+alter table "real_estate"."analytical"."stg_listings__dbt_tmp" rename to "stg_listings"
+[0m23:13:46.624036 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:13:46.636787 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: COMMIT
+[0m23:13:46.638231 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:13:46.639372 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: COMMIT
+[0m23:13:46.641855 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m23:13:46.648168 [debug] [Thread-1 (]: Applying DROP to: "real_estate"."analytical"."stg_listings__dbt_backup"
+[0m23:13:46.654255 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:13:46.655456 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+drop view if exists "real_estate"."analytical"."stg_listings__dbt_backup" cascade
+[0m23:13:46.656838 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m23:13:46.658846 [debug] [Thread-1 (]: Timing info for model.real_estate_dbt.stg_listings (execute): 23:13:46.542212 => 23:13:46.658655
+[0m23:13:46.659852 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: Close
+[0m23:13:46.661222 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a21d7d0>]}
+[0m23:13:46.662412 [info ] [Thread-1 (]: 1 of 3 OK created sql view model analytical.stg_listings ....................... [[32mCREATE VIEW[0m in 0.15s]
+[0m23:13:46.663827 [debug] [Thread-1 (]: Finished running node model.real_estate_dbt.stg_listings
+[0m23:13:46.665702 [debug] [Thread-3 (]: Began running node model.real_estate_dbt.dim_price_history
+[0m23:13:46.666854 [info ] [Thread-3 (]: 2 of 3 START sql table model analytical.dim_price_history ...................... [RUN]
+[0m23:13:46.668340 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.real_estate_dbt.dim_price_history'
+[0m23:13:46.669347 [debug] [Thread-3 (]: Began compiling node model.real_estate_dbt.dim_price_history
+[0m23:13:46.673242 [debug] [Thread-3 (]: Writing injected SQL for node "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.684410 [debug] [Thread-3 (]: Timing info for model.real_estate_dbt.dim_price_history (compile): 23:13:46.670250 => 23:13:46.684090
+[0m23:13:46.685615 [debug] [Thread-3 (]: Began executing node model.real_estate_dbt.dim_price_history
+[0m23:13:46.706271 [debug] [Thread-3 (]: Writing runtime sql for node "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.718036 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.719217 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: BEGIN
+[0m23:13:46.720226 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:13:46.729636 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.730856 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.731938 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+
+  
+    
+
+  create  table "real_estate"."analytical"."dim_price_history__dbt_tmp"
+  
+  
+    as
+  
+  (
+    WITH staged AS (
+    SELECT * FROM "real_estate"."analytical"."stg_listings"
+),
+
+versioned AS (
+    SELECT
+        offer_url,
+        source_portal,
+        title,
+        city,
+        district,
+        area_sqm,
+        rooms_count,
+        price_pln,
+        price_per_sqm,
+        LAG(price_pln) OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS previous_price_pln,
+        scraped_at AS valid_from,
+        LEAD(scraped_at) OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS valid_to,
+        ROW_NUMBER() OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS version_number
+    FROM staged
+)
+
+SELECT
+    offer_url,
+    source_portal,
+    title,
+    city,
+    district,
+    area_sqm,
+    rooms_count,
+    version_number,
+    price_pln,
+    previous_price_pln,
+    COALESCE(price_pln - previous_price_pln, 0) AS price_change_pln,
+    CASE 
+        WHEN previous_price_pln IS NOT NULL AND previous_price_pln > 0 
+        THEN ROUND(((price_pln - previous_price_pln) / previous_price_pln) * 100, 2)
+        ELSE 0.00
+    END AS price_change_pct,
+    price_per_sqm,
+    valid_from,
+    valid_to,
+    CASE WHEN valid_to IS NULL THEN TRUE ELSE FALSE END AS is_current
+FROM versioned
+ORDER BY offer_url, version_number
+  );
+  
+[0m23:13:46.745264 [debug] [Thread-3 (]: SQL status: SELECT 40 in 0.0 seconds
+[0m23:13:46.748947 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.750065 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+alter table "real_estate"."analytical"."dim_price_history__dbt_tmp" rename to "dim_price_history"
+[0m23:13:46.751449 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:13:46.756684 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: COMMIT
+[0m23:13:46.757859 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.758828 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: COMMIT
+[0m23:13:46.760964 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m23:13:46.763813 [debug] [Thread-3 (]: Applying DROP to: "real_estate"."analytical"."dim_price_history__dbt_backup"
+[0m23:13:46.768039 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:13:46.769184 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+drop table if exists "real_estate"."analytical"."dim_price_history__dbt_backup" cascade
+[0m23:13:46.770482 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m23:13:46.772390 [debug] [Thread-3 (]: Timing info for model.real_estate_dbt.dim_price_history (execute): 23:13:46.687029 => 23:13:46.772200
+[0m23:13:46.773371 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: Close
+[0m23:13:46.774737 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8a371350>]}
+[0m23:13:46.775928 [info ] [Thread-3 (]: 2 of 3 OK created sql table model analytical.dim_price_history ................. [[32mSELECT 40[0m in 0.11s]
+[0m23:13:46.777222 [debug] [Thread-3 (]: Finished running node model.real_estate_dbt.dim_price_history
+[0m23:13:46.779152 [debug] [Thread-2 (]: Began running node model.real_estate_dbt.fct_listings_scored
+[0m23:13:46.780604 [info ] [Thread-2 (]: 3 of 3 START sql table model analytical.fct_listings_scored .................... [RUN]
+[0m23:13:46.782353 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.real_estate_dbt.fct_listings_scored'
+[0m23:13:46.783618 [debug] [Thread-2 (]: Began compiling node model.real_estate_dbt.fct_listings_scored
+[0m23:13:46.787807 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate_dbt.fct_listings_scored"
+[0m23:13:46.795614 [debug] [Thread-2 (]: Timing info for model.real_estate_dbt.fct_listings_scored (compile): 23:13:46.784649 => 23:13:46.795288
+[0m23:13:46.796708 [debug] [Thread-2 (]: Began executing node model.real_estate_dbt.fct_listings_scored
+[0m23:13:46.801298 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate_dbt.fct_listings_scored"
+[0m23:13:46.808008 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:13:46.809042 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: BEGIN
+[0m23:13:46.810007 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:13:46.819979 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.821226 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:13:46.822375 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.fct_listings_scored"} */
+
+  
+    
+
+  create  table "real_estate"."analytical"."fct_listings_scored__dbt_tmp"
+  
+  
+    as
+  
+  (
+    WITH latest_per_url AS (
+    SELECT *
+    FROM "real_estate"."analytical"."dim_price_history"
+    WHERE is_current = TRUE
+),
+
+with_fingerprint AS (
+    SELECT
+        l.*,
+        s.property_fingerprint
+    FROM latest_per_url l
+    JOIN "real_estate"."analytical"."stg_listings" s
+      ON l.offer_url = s.offer_url
+     AND l.valid_from = s.scraped_at
+),
+
+deduplicated AS (
+    SELECT
+        property_fingerprint,
+        offer_url AS primary_offer_url,
+        source_portal AS primary_portal,
+        title,
+        city,
+        district,
+        area_sqm,
+        rooms_count,
+        price_pln,
+        price_per_sqm,
+        price_change_pln,
+        price_change_pct,
+        valid_from AS last_scraped_at,
+        COUNT(*) OVER (PARTITION BY property_fingerprint) AS portal_listings_count,
+        STRING_AGG(DISTINCT source_portal, ', ') OVER (PARTITION BY property_fingerprint) AS listed_on_portals,
+        ROW_NUMBER() OVER (
+            PARTITION BY property_fingerprint
+            ORDER BY CASE WHEN source_portal = 'otodom' THEN 1 ELSE 2 END, valid_from ASC
+        ) AS dedup_rank
+    FROM with_fingerprint
+),
+
+unique_properties AS (
+    SELECT * FROM deduplicated WHERE dedup_rank = 1
+),
+
+market_benchmarks AS (
+    SELECT
+        *,
+        ROUND(AVG(price_per_sqm) OVER (PARTITION BY city, district), 2) AS district_avg_sqm,
+        CASE
+            WHEN city = 'Łódź' THEN 8650.00
+            WHEN city = 'Warszawa' THEN 16200.00
+            WHEN city = 'Kraków' THEN 14100.00
+            WHEN city = 'Wrocław' THEN 12800.00
+            WHEN city = 'Gdańsk' THEN 12500.00
+            WHEN city = 'Poznań' THEN 11200.00
+            WHEN city = 'Katowice' THEN 8200.00
+            ELSE 8650.00
+        END AS nbp_benchmark_sqm
+    FROM unique_properties
+)
+
+SELECT
+    property_fingerprint,
+    primary_portal,
+    listed_on_portals,
+    portal_listings_count,
+    title,
+    city,
+    district,
+    rooms_count,
+    area_sqm,
+    price_pln,
+    price_per_sqm,
+    price_change_pln,
+    price_change_pct,
+    district_avg_sqm,
+    nbp_benchmark_sqm,
+    ROUND(((price_per_sqm - district_avg_sqm) / NULLIF(district_avg_sqm, 0)) * 100, 2) AS vs_district_avg_pct,
+    ROUND(((price_per_sqm - nbp_benchmark_sqm) / nbp_benchmark_sqm) * 100, 2) AS vs_nbp_benchmark_pct,
+    CASE
+        WHEN price_per_sqm <= nbp_benchmark_sqm * 0.95 THEN 'OKAZJA INWESTYCYJNA (Poniżej NBP)'
+        WHEN price_per_sqm <= district_avg_sqm * 0.95 THEN 'PONIŻEJ ŚREDNIEJ DZIELNICY'
+        WHEN price_per_sqm <= district_avg_sqm * 1.05 THEN 'CENA RYNKOWA'
+        ELSE 'PRZEPŁACONA / PREMIUM'
+    END AS investment_score,
+    primary_offer_url,
+    last_scraped_at
+FROM market_benchmarks
+ORDER BY price_per_sqm ASC
+  );
+  
+[0m23:13:46.826127 [debug] [Thread-2 (]: Postgres adapter: Postgres error: DISTINCT is not implemented for window functions
+LINE 44:         STRING_AGG(DISTINCT source_portal, ', ') OVER (PARTI...
+                 ^
+
+[0m23:13:46.827324 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: ROLLBACK
+[0m23:13:46.828587 [debug] [Thread-2 (]: Timing info for model.real_estate_dbt.fct_listings_scored (execute): 23:13:46.797575 => 23:13:46.828382
+[0m23:13:46.829551 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: Close
+[0m23:13:46.835911 [debug] [Thread-2 (]: Database Error in model fct_listings_scored (models/marts/fct_listings_scored.sql)
+  DISTINCT is not implemented for window functions
+  LINE 44:         STRING_AGG(DISTINCT source_portal, ', ') OVER (PARTI...
+                   ^
+  compiled Code at target/run/real_estate_dbt/models/marts/fct_listings_scored.sql
+[0m23:13:46.837159 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6a1a0594-6605-4905-b625-c6eddc2fe22c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8c1c1610>]}
+[0m23:13:46.838363 [error] [Thread-2 (]: 3 of 3 ERROR creating sql table model analytical.fct_listings_scored ........... [[31mERROR[0m in 0.06s]
+[0m23:13:46.839672 [debug] [Thread-2 (]: Finished running node model.real_estate_dbt.fct_listings_scored
+[0m23:13:46.843160 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.844238 [debug] [MainThread]: On master: BEGIN
+[0m23:13:46.845201 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:13:46.854602 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:13:46.855690 [debug] [MainThread]: On master: COMMIT
+[0m23:13:46.856578 [debug] [MainThread]: Using postgres connection "master"
+[0m23:13:46.857876 [debug] [MainThread]: On master: COMMIT
+[0m23:13:46.859255 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m23:13:46.860342 [debug] [MainThread]: On master: Close
+[0m23:13:46.861650 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:13:46.862551 [debug] [MainThread]: Connection 'model.real_estate_dbt.stg_listings' was properly closed.
+[0m23:13:46.863399 [debug] [MainThread]: Connection 'model.real_estate_dbt.dim_price_history' was properly closed.
+[0m23:13:46.864292 [debug] [MainThread]: Connection 'model.real_estate_dbt.fct_listings_scored' was properly closed.
+[0m23:13:46.865256 [info ] [MainThread]: 
+[0m23:13:46.866397 [info ] [MainThread]: Finished running 1 view model, 2 table models in 0 hours 0 minutes and 0.51 seconds (0.51s).
+[0m23:13:46.868017 [debug] [MainThread]: Command end result
+[0m23:13:46.890040 [info ] [MainThread]: 
+[0m23:13:46.891323 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m23:13:46.892554 [info ] [MainThread]: 
+[0m23:13:46.893845 [error] [MainThread]:   Database Error in model fct_listings_scored (models/marts/fct_listings_scored.sql)
+  DISTINCT is not implemented for window functions
+  LINE 44:         STRING_AGG(DISTINCT source_portal, ', ') OVER (PARTI...
+                   ^
+  compiled Code at target/run/real_estate_dbt/models/marts/fct_listings_scored.sql
+[0m23:13:46.894958 [info ] [MainThread]: 
+[0m23:13:46.896143 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+[0m23:13:46.898381 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.8829267, "process_user_time": 2.945033, "process_kernel_time": 0.388966, "process_mem_max_rss": "122944", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:13:46.900115 [debug] [MainThread]: Command `dbt run` failed at 23:13:46.899883 after 1.88 seconds
+[0m23:13:46.901659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c8cdfbe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c90bc8c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c2c88761cd0>]}
+[0m23:13:46.902778 [debug] [MainThread]: Flushing usage events
+[0m23:15:35.583226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33b8a3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33bdff50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33bdfed0>]}
+
+
+============================== 23:15:35.589614 | a73cb379-7456-4a89-ba63-b94813e4b6ea ==============================
+[0m23:15:35.589614 [info ] [MainThread]: Running with dbt=1.7.20
+[0m23:15:35.591233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/usr/app/dbt/logs', 'version_check': 'True', 'profiles_dir': '.', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:15:35.592502 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:15:35.594121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33be5d90>]}
+[0m23:15:35.716797 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33e81010>]}
+[0m23:15:35.768746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33afbf50>]}
+[0m23:15:35.770453 [info ] [MainThread]: Registered adapter: postgres=1.7.20
+[0m23:15:35.782805 [debug] [MainThread]: checksum: e60e9a7db60717b27391e9fcca7ffc2f1c59992fad004fb73a09489fe7f93d3f, vars: {}, profile: , target: , version: 1.7.20
+[0m23:15:35.874019 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:15:35.875463 [debug] [MainThread]: Partial parsing: updated file: real_estate_dbt://models/marts/fct_listings_scored.sql
+[0m23:15:36.002914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33bc2850>]}
+[0m23:15:36.027939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33be5810>]}
+[0m23:15:36.029334 [info ] [MainThread]: Found 3 models, 1 source, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m23:15:36.030579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f3419a510>]}
+[0m23:15:36.033046 [info ] [MainThread]: 
+[0m23:15:36.034918 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:15:36.037161 [debug] [ThreadPool]: Acquiring new postgres connection 'list_real_estate'
+[0m23:15:36.047165 [debug] [ThreadPool]: Using postgres connection "list_real_estate"
+[0m23:15:36.048662 [debug] [ThreadPool]: On list_real_estate: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "list_real_estate"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:15:36.049824 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:15:36.062105 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m23:15:36.064299 [debug] [ThreadPool]: On list_real_estate: Close
+[0m23:15:36.066791 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_real_estate, now list_real_estate_analytical)
+[0m23:15:36.072406 [debug] [ThreadPool]: Using postgres connection "list_real_estate_analytical"
+[0m23:15:36.073595 [debug] [ThreadPool]: On list_real_estate_analytical: BEGIN
+[0m23:15:36.074606 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:15:36.083688 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.084860 [debug] [ThreadPool]: Using postgres connection "list_real_estate_analytical"
+[0m23:15:36.085805 [debug] [ThreadPool]: On list_real_estate_analytical: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "list_real_estate_analytical"} */
+select
+      'real_estate' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytical'
+    union all
+    select
+      'real_estate' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytical'
+    union all
+    select
+      'real_estate' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytical'
+  
+[0m23:15:36.088951 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.0 seconds
+[0m23:15:36.090950 [debug] [ThreadPool]: On list_real_estate_analytical: ROLLBACK
+[0m23:15:36.092171 [debug] [ThreadPool]: On list_real_estate_analytical: Close
+[0m23:15:36.096895 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.097942 [debug] [MainThread]: On master: BEGIN
+[0m23:15:36.098885 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:15:36.107985 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.109197 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.110255 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m23:15:36.114002 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m23:15:36.116130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f31c6a590>]}
+[0m23:15:36.117230 [debug] [MainThread]: On master: ROLLBACK
+[0m23:15:36.118369 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.119350 [debug] [MainThread]: On master: BEGIN
+[0m23:15:36.120605 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.121549 [debug] [MainThread]: On master: COMMIT
+[0m23:15:36.122608 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.123605 [debug] [MainThread]: On master: COMMIT
+[0m23:15:36.124914 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m23:15:36.125971 [debug] [MainThread]: On master: Close
+[0m23:15:36.127554 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:15:36.129033 [info ] [MainThread]: 
+[0m23:15:36.138656 [debug] [Thread-1 (]: Began running node model.real_estate_dbt.stg_listings
+[0m23:15:36.140275 [info ] [Thread-1 (]: 1 of 3 START sql view model analytical.stg_listings ............................ [RUN]
+[0m23:15:36.142227 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_real_estate_analytical, now model.real_estate_dbt.stg_listings)
+[0m23:15:36.143734 [debug] [Thread-1 (]: Began compiling node model.real_estate_dbt.stg_listings
+[0m23:15:36.152677 [debug] [Thread-1 (]: Writing injected SQL for node "model.real_estate_dbt.stg_listings"
+[0m23:15:36.161800 [debug] [Thread-1 (]: Timing info for model.real_estate_dbt.stg_listings (compile): 23:15:36.145051 => 23:15:36.161471
+[0m23:15:36.162998 [debug] [Thread-1 (]: Began executing node model.real_estate_dbt.stg_listings
+[0m23:15:36.195983 [debug] [Thread-1 (]: Writing runtime sql for node "model.real_estate_dbt.stg_listings"
+[0m23:15:36.204832 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.206020 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: BEGIN
+[0m23:15:36.207350 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:15:36.216900 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.218305 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.219455 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+
+  create view "real_estate"."analytical"."stg_listings__dbt_tmp"
+    
+    
+  as (
+    WITH raw_source AS (
+    SELECT * FROM "real_estate"."raw"."listings"
+),
+
+cleaned AS (
+    SELECT
+        id AS raw_id,
+        source_portal,
+        offer_url,
+        TRIM(title) AS title,
+        NULLIF(REGEXP_REPLACE(price_raw, '[^0-9]', '', 'g'), '')::NUMERIC(12, 2) AS price_pln,
+        NULLIF(REPLACE(REGEXP_REPLACE(area_raw, '[^0-9.,]', '', 'g'), ',', '.'), '')::NUMERIC(8, 2) AS area_sqm,
+        NULLIF(REGEXP_REPLACE(rooms_raw, '[^0-9]', '', 'g'), '')::INT AS rooms_count,
+        location_raw,
+        CASE
+            WHEN location_raw ILIKE '%Łódź%' OR offer_url ILIKE '%lodz%' THEN 'Łódź'
+            WHEN location_raw ILIKE '%Warszawa%' OR offer_url ILIKE '%warszawa%' THEN 'Warszawa'
+            WHEN location_raw ILIKE '%Wrocław%' OR offer_url ILIKE '%wroclaw%' THEN 'Wrocław'
+            WHEN location_raw ILIKE '%Katowice%' OR offer_url ILIKE '%katowice%' THEN 'Katowice'
+            WHEN location_raw ILIKE '%Kraków%' OR offer_url ILIKE '%krakow%' THEN 'Kraków'
+            WHEN location_raw ILIKE '%Poznań%' OR offer_url ILIKE '%poznan%' THEN 'Poznań'
+            WHEN location_raw ILIKE '%Gdańsk%' OR offer_url ILIKE '%gdansk%' THEN 'Gdańsk'
+            ELSE 'Łódź'
+        END AS city,
+        CASE
+            WHEN location_raw ILIKE '%Polesie%' THEN 'Polesie'
+            WHEN location_raw ILIKE '%Bałuty%' THEN 'Bałuty'
+            WHEN location_raw ILIKE '%Widzew%' THEN 'Widzew'
+            WHEN location_raw ILIKE '%Górna%' THEN 'Górna'
+            WHEN location_raw ILIKE '%Śródmieście%' THEN 'Śródmieście'
+            ELSE 'Pozostałe'
+        END AS district,
+        raw_payload,
+        scraped_at
+    FROM raw_source
+)
+
+SELECT
+    *,
+    ROUND(price_pln / NULLIF(area_sqm, 0), 2) AS price_per_sqm,
+    MD5(
+        LOWER(city) || '|' ||
+        LOWER(district) || '|' ||
+        ROUND(area_sqm, 1)::TEXT || '|' ||
+        COALESCE(rooms_count, 0)::TEXT
+    ) AS property_fingerprint
+FROM cleaned
+WHERE price_pln IS NOT NULL
+  AND area_sqm IS NOT NULL
+  AND area_sqm > 10
+  );
+[0m23:15:36.223549 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m23:15:36.229703 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.230960 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+alter table "real_estate"."analytical"."stg_listings" rename to "stg_listings__dbt_backup"
+[0m23:15:36.232645 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:15:36.236287 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.237484 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+alter table "real_estate"."analytical"."stg_listings__dbt_tmp" rename to "stg_listings"
+[0m23:15:36.238977 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:15:36.253369 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: COMMIT
+[0m23:15:36.254861 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.256048 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: COMMIT
+[0m23:15:36.258451 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m23:15:36.266315 [debug] [Thread-1 (]: Applying DROP to: "real_estate"."analytical"."stg_listings__dbt_backup"
+[0m23:15:36.272695 [debug] [Thread-1 (]: Using postgres connection "model.real_estate_dbt.stg_listings"
+[0m23:15:36.274132 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.stg_listings"} */
+drop view if exists "real_estate"."analytical"."stg_listings__dbt_backup" cascade
+[0m23:15:36.279388 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m23:15:36.281689 [debug] [Thread-1 (]: Timing info for model.real_estate_dbt.stg_listings (execute): 23:15:36.164002 => 23:15:36.281505
+[0m23:15:36.282813 [debug] [Thread-1 (]: On model.real_estate_dbt.stg_listings: Close
+[0m23:15:36.284342 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f302dc810>]}
+[0m23:15:36.285547 [info ] [Thread-1 (]: 1 of 3 OK created sql view model analytical.stg_listings ....................... [[32mCREATE VIEW[0m in 0.14s]
+[0m23:15:36.286906 [debug] [Thread-1 (]: Finished running node model.real_estate_dbt.stg_listings
+[0m23:15:36.288919 [debug] [Thread-3 (]: Began running node model.real_estate_dbt.dim_price_history
+[0m23:15:36.290306 [info ] [Thread-3 (]: 2 of 3 START sql table model analytical.dim_price_history ...................... [RUN]
+[0m23:15:36.291824 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.real_estate_dbt.dim_price_history'
+[0m23:15:36.292972 [debug] [Thread-3 (]: Began compiling node model.real_estate_dbt.dim_price_history
+[0m23:15:36.296413 [debug] [Thread-3 (]: Writing injected SQL for node "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.303740 [debug] [Thread-3 (]: Timing info for model.real_estate_dbt.dim_price_history (compile): 23:15:36.293978 => 23:15:36.303429
+[0m23:15:36.304847 [debug] [Thread-3 (]: Began executing node model.real_estate_dbt.dim_price_history
+[0m23:15:36.326241 [debug] [Thread-3 (]: Writing runtime sql for node "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.333658 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.334714 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: BEGIN
+[0m23:15:36.335733 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m23:15:36.345017 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.346248 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.347363 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+
+  
+    
+
+  create  table "real_estate"."analytical"."dim_price_history__dbt_tmp"
+  
+  
+    as
+  
+  (
+    WITH staged AS (
+    SELECT * FROM "real_estate"."analytical"."stg_listings"
+),
+
+versioned AS (
+    SELECT
+        offer_url,
+        source_portal,
+        title,
+        city,
+        district,
+        area_sqm,
+        rooms_count,
+        price_pln,
+        price_per_sqm,
+        LAG(price_pln) OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS previous_price_pln,
+        scraped_at AS valid_from,
+        LEAD(scraped_at) OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS valid_to,
+        ROW_NUMBER() OVER (
+            PARTITION BY offer_url 
+            ORDER BY scraped_at ASC
+        ) AS version_number
+    FROM staged
+)
+
+SELECT
+    offer_url,
+    source_portal,
+    title,
+    city,
+    district,
+    area_sqm,
+    rooms_count,
+    version_number,
+    price_pln,
+    previous_price_pln,
+    COALESCE(price_pln - previous_price_pln, 0) AS price_change_pln,
+    CASE 
+        WHEN previous_price_pln IS NOT NULL AND previous_price_pln > 0 
+        THEN ROUND(((price_pln - previous_price_pln) / previous_price_pln) * 100, 2)
+        ELSE 0.00
+    END AS price_change_pct,
+    price_per_sqm,
+    valid_from,
+    valid_to,
+    CASE WHEN valid_to IS NULL THEN TRUE ELSE FALSE END AS is_current
+FROM versioned
+ORDER BY offer_url, version_number
+  );
+  
+[0m23:15:36.353930 [debug] [Thread-3 (]: SQL status: SELECT 40 in 0.0 seconds
+[0m23:15:36.357898 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.359053 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+alter table "real_estate"."analytical"."dim_price_history" rename to "dim_price_history__dbt_backup"
+[0m23:15:36.360558 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:15:36.363806 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.364815 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+alter table "real_estate"."analytical"."dim_price_history__dbt_tmp" rename to "dim_price_history"
+[0m23:15:36.366061 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:15:36.371641 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: COMMIT
+[0m23:15:36.372872 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.373928 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: COMMIT
+[0m23:15:36.375936 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m23:15:36.378764 [debug] [Thread-3 (]: Applying DROP to: "real_estate"."analytical"."dim_price_history__dbt_backup"
+[0m23:15:36.383013 [debug] [Thread-3 (]: Using postgres connection "model.real_estate_dbt.dim_price_history"
+[0m23:15:36.384266 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.dim_price_history"} */
+drop table if exists "real_estate"."analytical"."dim_price_history__dbt_backup" cascade
+[0m23:15:36.387704 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m23:15:36.389824 [debug] [Thread-3 (]: Timing info for model.real_estate_dbt.dim_price_history (execute): 23:15:36.305730 => 23:15:36.389635
+[0m23:15:36.390824 [debug] [Thread-3 (]: On model.real_estate_dbt.dim_price_history: Close
+[0m23:15:36.392174 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f31dbaf50>]}
+[0m23:15:36.393354 [info ] [Thread-3 (]: 2 of 3 OK created sql table model analytical.dim_price_history ................. [[32mSELECT 40[0m in 0.10s]
+[0m23:15:36.394801 [debug] [Thread-3 (]: Finished running node model.real_estate_dbt.dim_price_history
+[0m23:15:36.396674 [debug] [Thread-2 (]: Began running node model.real_estate_dbt.fct_listings_scored
+[0m23:15:36.397808 [info ] [Thread-2 (]: 3 of 3 START sql table model analytical.fct_listings_scored .................... [RUN]
+[0m23:15:36.399282 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.real_estate_dbt.fct_listings_scored'
+[0m23:15:36.400322 [debug] [Thread-2 (]: Began compiling node model.real_estate_dbt.fct_listings_scored
+[0m23:15:36.404520 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.412541 [debug] [Thread-2 (]: Timing info for model.real_estate_dbt.fct_listings_scored (compile): 23:15:36.401272 => 23:15:36.412232
+[0m23:15:36.413535 [debug] [Thread-2 (]: Began executing node model.real_estate_dbt.fct_listings_scored
+[0m23:15:36.418568 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.425569 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.426615 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: BEGIN
+[0m23:15:36.427587 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:15:36.437116 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.438326 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.439430 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.fct_listings_scored"} */
+
+  
+    
+
+  create  table "real_estate"."analytical"."fct_listings_scored__dbt_tmp"
+  
+  
+    as
+  
+  (
+    WITH latest_per_url AS (
+    SELECT *
+    FROM "real_estate"."analytical"."dim_price_history"
+    WHERE is_current = TRUE
+),
+
+with_fingerprint AS (
+    SELECT
+        l.*,
+        s.property_fingerprint
+    FROM latest_per_url l
+    JOIN "real_estate"."analytical"."stg_listings" s
+      ON l.offer_url = s.offer_url
+     AND l.valid_from = s.scraped_at
+),
+
+-- Postgres nie trawi DISTINCT wewnątrz funkcji okna, więc agregujemy to po staremu (GROUP BY)
+portal_agg AS (
+    SELECT
+        property_fingerprint,
+        COUNT(*) AS portal_listings_count,
+        STRING_AGG(DISTINCT source_portal, ', ') AS listed_on_portals
+    FROM with_fingerprint
+    GROUP BY property_fingerprint
+),
+
+deduplicated AS (
+    SELECT
+        wf.property_fingerprint,
+        wf.offer_url AS primary_offer_url,
+        wf.source_portal AS primary_portal,
+        wf.title,
+        wf.city,
+        wf.district,
+        wf.area_sqm,
+        wf.rooms_count,
+        wf.price_pln,
+        wf.price_per_sqm,
+        wf.price_change_pln,
+        wf.price_change_pct,
+        wf.valid_from AS last_scraped_at,
+        pa.portal_listings_count,
+        pa.listed_on_portals,
+        ROW_NUMBER() OVER (
+            PARTITION BY wf.property_fingerprint
+            ORDER BY CASE WHEN wf.source_portal = 'otodom' THEN 1 ELSE 2 END, wf.valid_from ASC
+        ) AS dedup_rank
+    FROM with_fingerprint wf
+    JOIN portal_agg pa ON wf.property_fingerprint = pa.property_fingerprint
+),
+
+unique_properties AS (
+    SELECT * FROM deduplicated WHERE dedup_rank = 1
+),
+
+market_benchmarks AS (
+    SELECT
+        *,
+        ROUND(AVG(price_per_sqm) OVER (PARTITION BY city, district), 2) AS district_avg_sqm,
+        CASE
+            WHEN city = 'Łódź' THEN 8650.00
+            WHEN city = 'Warszawa' THEN 16200.00
+            WHEN city = 'Kraków' THEN 14100.00
+            WHEN city = 'Wrocław' THEN 12800.00
+            WHEN city = 'Gdańsk' THEN 12500.00
+            WHEN city = 'Poznań' THEN 11200.00
+            WHEN city = 'Katowice' THEN 8200.00
+            ELSE 8650.00
+        END AS nbp_benchmark_sqm
+    FROM unique_properties
+)
+
+SELECT
+    property_fingerprint,
+    primary_portal,
+    listed_on_portals,
+    portal_listings_count,
+    title,
+    city,
+    district,
+    rooms_count,
+    area_sqm,
+    price_pln,
+    price_per_sqm,
+    price_change_pln,
+    price_change_pct,
+    district_avg_sqm,
+    nbp_benchmark_sqm,
+    ROUND(((price_per_sqm - district_avg_sqm) / NULLIF(district_avg_sqm, 0)) * 100, 2) AS vs_district_avg_pct,
+    ROUND(((price_per_sqm - nbp_benchmark_sqm) / nbp_benchmark_sqm) * 100, 2) AS vs_nbp_benchmark_pct,
+    CASE
+        WHEN price_per_sqm <= nbp_benchmark_sqm * 0.95 THEN 'OKAZJA INWESTYCYJNA (Poniżej NBP)'
+        WHEN price_per_sqm <= district_avg_sqm * 0.95 THEN 'PONIŻEJ ŚREDNIEJ DZIELNICY'
+        WHEN price_per_sqm <= district_avg_sqm * 1.05 THEN 'CENA RYNKOWA'
+        ELSE 'PRZEPŁACONA / PREMIUM'
+    END AS investment_score,
+    primary_offer_url,
+    last_scraped_at
+FROM market_benchmarks
+ORDER BY price_per_sqm ASC
+  );
+  
+[0m23:15:36.447765 [debug] [Thread-2 (]: SQL status: SELECT 30 in 0.0 seconds
+[0m23:15:36.451738 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.452837 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.fct_listings_scored"} */
+alter table "real_estate"."analytical"."fct_listings_scored__dbt_tmp" rename to "fct_listings_scored"
+[0m23:15:36.454202 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m23:15:36.456641 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: COMMIT
+[0m23:15:36.457628 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.458559 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: COMMIT
+[0m23:15:36.460618 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m23:15:36.463698 [debug] [Thread-2 (]: Applying DROP to: "real_estate"."analytical"."fct_listings_scored__dbt_backup"
+[0m23:15:36.465361 [debug] [Thread-2 (]: Using postgres connection "model.real_estate_dbt.fct_listings_scored"
+[0m23:15:36.466370 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: /* {"app": "dbt", "dbt_version": "1.7.20", "profile_name": "real_estate_dbt", "target_name": "dev", "node_id": "model.real_estate_dbt.fct_listings_scored"} */
+drop table if exists "real_estate"."analytical"."fct_listings_scored__dbt_backup" cascade
+[0m23:15:36.467675 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m23:15:36.469590 [debug] [Thread-2 (]: Timing info for model.real_estate_dbt.fct_listings_scored (execute): 23:15:36.414441 => 23:15:36.469406
+[0m23:15:36.470528 [debug] [Thread-2 (]: On model.real_estate_dbt.fct_listings_scored: Close
+[0m23:15:36.471942 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a73cb379-7456-4a89-ba63-b94813e4b6ea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f3027fad0>]}
+[0m23:15:36.473107 [info ] [Thread-2 (]: 3 of 3 OK created sql table model analytical.fct_listings_scored ............... [[32mSELECT 30[0m in 0.07s]
+[0m23:15:36.474567 [debug] [Thread-2 (]: Finished running node model.real_estate_dbt.fct_listings_scored
+[0m23:15:36.477420 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.478451 [debug] [MainThread]: On master: BEGIN
+[0m23:15:36.479352 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:15:36.489192 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m23:15:36.490413 [debug] [MainThread]: On master: COMMIT
+[0m23:15:36.491495 [debug] [MainThread]: Using postgres connection "master"
+[0m23:15:36.492433 [debug] [MainThread]: On master: COMMIT
+[0m23:15:36.493514 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m23:15:36.494436 [debug] [MainThread]: On master: Close
+[0m23:15:36.495977 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:15:36.496975 [debug] [MainThread]: Connection 'model.real_estate_dbt.stg_listings' was properly closed.
+[0m23:15:36.497855 [debug] [MainThread]: Connection 'model.real_estate_dbt.dim_price_history' was properly closed.
+[0m23:15:36.498741 [debug] [MainThread]: Connection 'model.real_estate_dbt.fct_listings_scored' was properly closed.
+[0m23:15:36.499705 [info ] [MainThread]: 
+[0m23:15:36.500974 [info ] [MainThread]: Finished running 1 view model, 2 table models in 0 hours 0 minutes and 0.47 seconds (0.47s).
+[0m23:15:36.502699 [debug] [MainThread]: Command end result
+[0m23:15:36.523050 [info ] [MainThread]: 
+[0m23:15:36.524517 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:15:36.525702 [info ] [MainThread]: 
+[0m23:15:36.527370 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m23:15:36.529824 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.9982605, "process_user_time": 2.191096, "process_kernel_time": 0.261323, "process_mem_max_rss": "121596", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:15:36.531433 [debug] [MainThread]: Command `dbt run` succeeded at 23:15:36.531184 after 1.00 seconds
+[0m23:15:36.532604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f384907d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f34e2a990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x771f33b82d10>]}
+[0m23:15:36.533760 [debug] [MainThread]: Flushing usage events

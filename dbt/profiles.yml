@@ -1,0 +1,12 @@
+real_estate_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: admin
+      pass: adminpassword
+      port: 5432
+      dbname: real_estate
+      schema: analytical
+      threads: 4
